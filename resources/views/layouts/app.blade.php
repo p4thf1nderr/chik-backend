@@ -9,6 +9,10 @@
  <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui@3.4.0/dist/css/coreui.min.css" crossorigin="anonymous">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/css/perfect-scrollbar.min.css" integrity="sha512-n+g8P11K/4RFlXnx2/RW1EZK25iYgolW6Qn7I0F96KxJibwATH3OoVCQPh/hzlc4dWAwplglKX8IVNVMWUUdsw==" crossorigin="anonymous" />
 
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
  <title>CoreUI</title>
  </head>
  <body class="c-app">
@@ -30,11 +34,6 @@
             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
          </svg>
       </button>
-      <ul class="c-header-nav d-md-down-none">
-         <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Dashboard</a></li>
-         <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Users</a></li>
-         <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Settings</a></li>
-      </ul>
    </header>
    <div class="c-body">
       <main class="c-main">
