@@ -35,7 +35,7 @@
                 <div class="card-body">
 
                        
-     <div id="mapid" style="width: 630px; height: 550px;"></div>
+     <div id="mapid" style="width: auto; height: 550px;"></div>
 
     <script>
         var mymap = L.map('mapid').setView([55.752004, 37.617734], 11);
