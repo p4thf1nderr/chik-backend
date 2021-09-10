@@ -4,6 +4,7 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
     <div class="col-md-3" class="list-group" data-spy="scroll" data-target="#navbar-example2" data-offset="0" style="overflow: auto">
+    <button type="button" class="list-group-item list-group-item-action active">Заявки на вывоз</button>
             <div class="card list-group-item" style="background-color: white;" >
                 <div class="card-header">
                     Метро:Автозаводская
@@ -64,6 +65,7 @@
         </div>
         <div class="col-md-3">
             <ul class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active">Маршруты</button>
             <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: white;">
                 №334234 - Автозаводская
                 <span class="badge badge-primary badge-pill">14</span>
