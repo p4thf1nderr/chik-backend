@@ -54,11 +54,11 @@
 
     
     const arraySparse = [
-        {'lat': 55.755819, 'long': 37.617644, 'name': 'Детские вещи', 'time': '13:00'},
-        {'lat': 55.874435, 'long': 37.590147, 'name': 'Детские вещи', 'time': '15:00'},
-        {'lat': 55.862404, 'long': 37.622603, 'name': 'Детские вещи', 'time': '12:00'},
+        {'lat': 55.755819, 'long': 37.617644, 'name': 'Куртка мужская L', 'time': '13:00'},
+        {'lat': 55.874435, 'long': 37.590147, 'name': 'Ноутбук Lenovo', 'time': '15:00'},
+        {'lat': 55.862404, 'long': 37.622603, 'name': 'Микроволновка LG', 'time': '12:00'},
         {'lat': 55.825618, 'long': 37.577265, 'name': 'Детская коляска', 'time': '12:00'},
-        {'lat': 55.812110, 'long': 37.597854, 'name': 'Детская одежда', 'time': '11:00'},
+        {'lat': 55.812110, 'long': 37.597854, 'name': 'Одежда детская', 'time': '11:00'},
     ]
 
     arraySparse.forEach((element) => {
@@ -107,7 +107,7 @@
             <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: white;">
                 <p class="card-text">№334234 - Беговая</p>
                 <p class="card-text">водитель - Артем Михайлов</p>
-                <span class="badge badge-primary badge-pill">14</span>
+                <span class="badge badge-primary badge-pill">5</span>
             </li>
             <button type="button" class="btn btn-secondary">редактировать</button>
             </div>
