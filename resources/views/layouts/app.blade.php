@@ -63,8 +63,15 @@
          </div>
          </li>
       </ul>
-      </div>
-      @endif
+   </div>
+   <ul class="c-header-nav ml-auto mr-4">
+      <li class="c-header-nav-item d-md-down-none mx-2">
+      <button type="button" class="btn btn-primary" aria-expanded="false">
+            Создать маршрут
+      </button>
+      </li>
+   </ul>
+   @endif
    </header>
    <div class="c-body">
       <main class="c-main">
