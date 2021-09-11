@@ -95,14 +95,22 @@
         <div class="col-md-3">
             <ul class="list-group">
             <button type="button" class="list-group-item list-group-item-action active">Маршруты</button>
+            <div class="card">
             <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: white;">
-                №334234 - Автозаводская
+                <p class="card-text">№334234 - Автозаводская</p>
+                <p class="card-text">водитель - Михаил Петров</p>
                 <span class="badge badge-primary badge-pill">14</span>
             </li>
+            <button type="button" class="btn btn-secondary">редактировать</button>
+            </div>
+            <div class="card">
             <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: white;">
-                №334234 - Беговая
-                <span class="badge badge-primary badge-pill">2</span>
+                <p class="card-text">№334234 - Беговая</p>
+                <p class="card-text">водитель - Артем Михайлов</p>
+                <span class="badge badge-primary badge-pill">14</span>
             </li>
+            <button type="button" class="btn btn-secondary">редактировать</button>
+            </div>
             </ul>
         </div>
     </div>
