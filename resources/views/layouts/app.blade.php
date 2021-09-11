@@ -48,7 +48,7 @@
             <a class="dropdown-item" href="#">14.09.21</a>
             <a class="dropdown-item" href="#">15.09.21</a>
             <a class="dropdown-item" href="#">16.09.21</a>
-            <a class="dropdown-item" href="#">117.09.21</a>
+            <a class="dropdown-item" href="#">17.09.21</a>
          </div>
          </li>
          <li class="c-header-nav-item px-3">
