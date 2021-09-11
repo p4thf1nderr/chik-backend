@@ -34,6 +34,35 @@
             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
          </svg>
       </button>
+      <div class="btn-group">
+      <ul class="c-header-nav d-md-down-none">
+         <li class="c-header-nav-item px-3">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Дата
+         </button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">11.09.21</a>
+            <a class="dropdown-item" href="#">12.09.21</a>
+            <a class="dropdown-item" href="#">13.09.21</a>
+            <a class="dropdown-item" href="#">14.09.21</a>
+            <a class="dropdown-item" href="#">15.09.21</a>
+            <a class="dropdown-item" href="#">16.09.21</a>
+            <a class="dropdown-item" href="#">117.09.21</a>
+         </div>
+         </li>
+         <li class="c-header-nav-item px-3">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Водитель
+         </button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Михаил Петров</a>
+            <a class="dropdown-item" href="#">Максим Иванов</a>
+            <a class="dropdown-item" href="#">Геннадий Задорин</a>
+            <a class="dropdown-item" href="#">Артем Михайлов</a>
+         </div>
+         </li>
+      </ul>
+      </div>
    </header>
    <div class="c-body">
       <main class="c-main">
