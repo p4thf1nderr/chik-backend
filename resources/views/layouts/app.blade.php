@@ -13,7 +13,7 @@
   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
   crossorigin=""></script>
 
- <title>CoreUI</title>
+ <title>Админ панель</title>
  </head>
  <body class="c-app">
    @include('partials.sidebar')
@@ -29,6 +29,7 @@
             <use xlink:href="assets/brand/coreui.svg#full"></use>
          </svg>
       </a>
+      @if (!Auth::guest())
       <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
          <svg class="c-icon c-icon-lg">
             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
@@ -63,6 +64,7 @@
          </li>
       </ul>
       </div>
+      @endif
    </header>
    <div class="c-body">
       <main class="c-main">
